@@ -17,3 +17,19 @@ def determine_length_equality(twoDList):
             if len(element)!=length:
                 equality = False
     return equality
+def loop_thru_str(string):
+    for char in string:
+        print(char)
+    return
+def staircase(symbol,length):
+    for i in range(1,length+1):
+        print(symbol*i)
+    return
+def both_divisions(a,b):
+    return a/b, a//b, a/b == a//b
+def twoDToOneD(twoDList):
+    new_list = []
+    for element in twoDList:
+        for i in element:
+            new_list.append(i)
+    return new_list
